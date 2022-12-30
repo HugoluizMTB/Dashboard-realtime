@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+/* fonts */
+@font-face {
+    font-family: "CustomPoppins";
+    src: url(../assets/fonts/Poppins-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "CustomPoppins";
+    src: url(../assets/fonts/Poppins-ExtraLight.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "CustomPoppins";
+    src: url(../assets/fonts/Poppins-SemiBold.ttf);
+    font-weight: 600;
+}
+
+/* como criar variável em CSS --bg-color  */
+:root{
+    /* cores */
+    --bg-color: #0A1128;
+    --obj-: #528b8bff;
+    --red: #FFFFFF;
+    
+    /* opacidade */
+    --op-05: rgba(255, 255, 255, 0.05);
+    --op-60: rgba(255, 255, 255, 0.6);
+
+    /* sm= smal md=médio lg= large */
+    --sp-xxs: 5px;
+    --sp-xs: 10px;
+    --sp-sm: 16px;
+    --sp-md: 20px;
+    --sp-lg: 40px;
+    /* tamanho de texto */
+    --text-lg: 3.5rem; /*56px*/
+    --text-md: 1rem; /*16px*/
+    --text-sm: 0.75rem; /*12px*/
+
+    /* border radius */
+    --round-sm:10px;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--obj-);
+    font-family: "CustomPoppins", sans-serif;
+    font-size: var(--text-md);
+}
+
+ul {
+    list-style-type:none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
